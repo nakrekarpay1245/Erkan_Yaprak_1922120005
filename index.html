@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="web teknolojileri dersi ödevi">
+    <meta name="author" content="erkanyaprak">
+
+    <title>Ana Sayfa</title>
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">ANA SAYFA</a></li>
+                    <li><a href="projects.html">PROJELER</a></li>
+                    <li><a href="about.html">HAKKIMIZDA</a></li>
+                    <li><a href="contact.html">İLETİŞİM</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--MAIN SECTION-->
+    <section id="mainSlider" class="slider">
+        <div id="mainCaption" class="caption">
+            <h1>LEAF GAME</h1>
+            <p>Bir oyun stüdyosundan daha fazlası</p>
+        </div>
+    </section>
+
+    <!--SOURCE SECTION-->
+
+    <section id="sources" class="sectionArea">
+        <div class="sourcesTop">
+            <h2 class="sectionHeader">KAYNAKLAR</h2>
+            <p>siz yeter ki öğrenmek isteyin</p>
+        </div>
+        <div class="sourcesBody">
+            <div class="container">
+                <div class="col3">
+                    <div class="item">
+                        <div class="zoom">
+                            <img src="img/youtube.jpg" alt="">
+                        </div>
+                        <div class="itemText">
+                            <h3>YOUTUBE - ERKAN YAPRAK</h3>
+                            <p>sınırsız eğitici içerikler, oynatma listeleri, kısa videolar ve devloglar</p>
+                            <input class="btnDetails" type="button" value="Daha Fazla" onClick="OpenYoutube()" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="item">
+                        <div class="zoom">
+                            <img src="img/medium.png" alt="">
+                        </div>
+                        <div class="itemText">
+                            <h3>MEDIUM - ERKAN YAPRAK</h3>
+                            <p>bir game developerın kaleminden/ klavyesinden çıkma yazılar</p>
+                            <input class="btnDetails" type="button" value="Daha Fazla" onClick="OpenMedium()" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="item">
+                        <div class="zoom">
+                            <img src="img/github.jpg" alt="">
+                        </div>
+                        <div class="itemText">
+                            <h3>GitHub - ERKAN YAPRAK</h3>
+                            <p>yaptığım/ ürettiğim şeyleri paylaşmaktan kaçınmıyorum</p>
+                            <input class="btnDetails" type="button" value="Daha Fazla" onClick="OpenGitHub()" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ADVICES SECTION-->
+    <section id="advice" class="sectionArea">
+        <div class="adviceTop">
+            <h2 class="sectionHeader">ÖNERİLERİM</h2>
+            <p>Tecrübemi sizlere aktarıyorum</p>
+        </div>
+    </section>
+
+    <!--ENGINE SECTION-->
+    <section id="engine" class="sectionArea">
+        <div class="engineTop">
+            <h2 class="sectionHeader">OYUN MOTORLARI</h2>
+            <p>Bir oyun motoru işinizin büyük kısmını halleder</p>
+        </div>
+        <div class="engineBody">
+            <div class="container">
+                <div class="col2">
+                    <div class="engineContainer">
+                        <img src="img/unity.jpg" class="imageOver" alt="">
+                        <div class="engineOverlay">
+                            <div class="engineText">
+                                <input class="pureButton" type="button" value="UNITY ENGINE" onClick="OpenUnity()" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="engineContainer">
+                        <img src="img/unreal.jpg" class="imageOver" alt="">
+                        <div class="engineOverlay2">
+                            <div class="engineText">
+                                <input class="pureButton" type="button" value="UNREAL ENGINE" onClick="OpenUnreal()" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--LANGUAGE SECTION-->
+    <section id="engine" class="sectionArea">
+        <div class="engineTop">
+            <h2 class="sectionHeader">GELİŞTİRME DİLLERİ</h2>
+            <p>Geliştirici her dili değil işine yarayan dili öğrenmelidir</p>
+        </div>
+        <div class="engineBody">
+            <div class="container">
+                <div class="col2">
+                    <div class="engineContainer">
+                        <img src="img/cs.jpeg" class="imageOver" alt="c# microsoft tarafından 
+                        geliştirilmiş bir programlama dilidir. Unity Engine ile kullanılır.">
+                        <div class="engineOverlay">
+                            <div class="engineText">
+                                C#
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="engineContainer">
+                        <img src="img/cpp.jpeg" class="imageOver" alt="c++">
+                        <div class="engineOverlay2">
+                            <div class="engineText">
+                                C++
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--HELPER SECTION-->
+    <section id="engine" class="sectionArea">
+        <div class="engineTop">
+            <h2 class="sectionHeader">YARDIMCI ARAÇLAR</h2>
+            <p>Bir oyun geliştirici hiçbir zaman yalnızca programcı değildir</p>
+        </div>
+        <div class="engineBody">
+            <div class="container">
+                <div class="col2">
+                    <div class="engineContainer">
+                        <img src="img/drawing.jpg" class="imageOver" alt="">
+                        <div class="engineOverlay">
+                            <div class="engineText">
+                                2B - Çizim
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="engineContainer">
+                        <img src="img/modelling.jpg" class="imageOver" alt="">
+                        <div class="engineOverlay2">
+                            <div class="engineText">
+                                3B - Modelleme
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER SECTION-->
+    <footer class="sectionArea">
+        <div class="container">
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>RESMİ WEB SAYFASI</h3>
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                    <p>Bir Oyun Stüdyosundan Daha Fazlası</p>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>KISAYOLLAR</h3>
+                    <ul class="footerLinks">
+                        <li><a href="index.html">ANA SAYFA</a></li>
+                        <li><a href="projects.html">PROJELER</a></li>
+                        <li><a href="about.html">HAKKIMIZDA</a></li>
+                        <li><a href="contact.html">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>SOSYAL MEDYA</h3>
+                    <ul class="socialLinks">
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UC4jHXpzFVgIpLGCJog9RUQw"><i class="fa fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/erkan_yprk/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://tr.linkedin.com/in/erkan-yaprak-64565418b?trk=people-guest_people_search-card"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

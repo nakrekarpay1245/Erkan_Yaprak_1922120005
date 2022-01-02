@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="web teknolojileri dersi ödevi">
+    <meta name="author" content="erkanyaprak">
+
+    <title>İletişim</title>
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">ANA SAYFA</a></li>
+                    <li><a href="projects.html">PROJELER</a></li>
+                    <li><a href="about.html">HAKKIMIZDA</a></li>
+                    <li><a href="contact.html">İLETİŞİM</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--MAIN SECTION-->
+    <section id="contactSlider" class="slider">
+        <div id="contactCaption" class="caption">
+            <h1>İLETİŞİM</h1>
+            <p>Bize nasıl ulaşabilirsiniz?</p>
+        </div>
+    </section>
+
+    <!-- FORM SECTION -->
+    <section id="contact" class="sectionArea">
+        <div class="contactTop">
+            <h2 class="sectionHeader">Bize Ulaşın</h2>
+            <p>Çaresizce değil çare olmak için telefonun başında bekliyoruz</p>
+        </div>
+        <form action="https://formspree.io/f/xoqrvvzb" method="POST"> 
+            <div class="contactBody">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="contactForm">
+                            <div class="formItem">
+                                <span class="formShape">
+                                    <i class="fa fa-user fa2x"></i>
+                                    <input class="formField" type="text" name="Ad Soyad" value=""
+                                        placeholder="Ad Soyad">
+                                </span>
+                            </div>
+                            <div class="formItem">
+                                <span class="formShape">
+                                    <i class="fa fa-envelope fa2x"></i>
+                                    <input class="formField" type="email" name="E-mail" value=""
+                                        placeholder="Email Adresi">
+                                </span>
+                            </div>
+                            <div class="formItem">
+                                <span class="formShape">
+                                    <i class="fa fa-mobile-phone fa2x"></i>
+                                    <input class="formField" type="tel" name="Telefon Numarası" value="" maxlength="11"
+                                        placeholder="Telefon No">
+                                </span>
+                            </div>
+                            <div class="formItem">
+                                <span class="formShape">
+                                    <i class="fa fa-comment fa2x"></i>
+                                    <textarea class="formField" name="Mesaj" rows="2" autocomplete="off"
+                                        placeholder="Mesaj"></textarea>
+                                </span>
+                            </div>
+                            <div class="formItem">
+                                <input type="submit" class="formBtn" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!--FOOTER SECTION-->
+    <footer class="sectionArea">
+        <div class="container">
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>RESMİ WEB SAYFASI</h3>
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                    <p>Bir Oyun Stüdyosundan Daha Fazlası</p>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>KISAYOLLAR</h3>
+                    <ul class="footerLinks">
+                        <li><a href="index.html">ANA SAYFA</a></li>
+                        <li><a href="projects.html">PROJELER</a></li>
+                        <li><a href="about.html">HAKKIMIZDA</a></li>
+                        <li><a href="contact.html">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="footerItem">
+                    <h3>SOSYAL MEDYA</h3>
+                    <ul class="socialLinks">
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UC4jHXpzFVgIpLGCJog9RUQw"><i
+                                    class="fa fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/erkan_yprk/"><i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank"
+                                href="https://tr.linkedin.com/in/erkan-yaprak-64565418b?trk=people-guest_people_search-card"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
